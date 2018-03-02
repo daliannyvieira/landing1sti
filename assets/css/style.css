@@ -184,6 +184,79 @@ body {
 	color: rgba(255, 0, 112, 1);
 }
 
+
+/*  Valor  */
+
+.valor {
+	height: 110vh
+}
+
+.valor .container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	padding-top: 40px;
+
+}
+
+.valor-title {
+	align-self: flex-start;
+}
+
+.valor-box {
+	width: 46vw;
+	margin-top:  
+}
+
+.valor-text {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1.5rem;
+}
+
+.valor-span {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1.125rem;
+	color: rgba(255, 0, 112, 1);
+}
+
+.valor-link {
+	color: rgba(255, 0, 112, 1);
+}
+
+
+/*  Services  */
+
+.services {
+	height: 110vh
+}
+
+.services .container {
+	padding: 0px;
+}
+
+.services-title {
+	padding-left: 40px
+}
+
+.services-list {
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+.services-box {
+	list-style: none;
+	width: 25%;
+	margin: 0px;
+}
+
+.services-box-title {
+	font-family: "Introdução", sans-serif;
+	font-size: 1rem;
+}
+
+
 img{
 	width: 100px
 }
