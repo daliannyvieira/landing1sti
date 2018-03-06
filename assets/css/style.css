@@ -65,6 +65,7 @@ body {
 	font-family: 'SkyhookMonoBold', sans-serif;
 	font-size: 16px;
 	list-style: none;
+	background-color: white;
 	border: solid 1px;
 	border-color: rgba(255, 221, 0, 1);
 	padding: 7px 10px;
@@ -90,7 +91,7 @@ body {
 	flex-direction: column;
 	justify-content: flex-end;
 	align-items: center;
-	height: 85vh;
+	height: 90vh;
 }
 
 .home-text {
@@ -115,7 +116,7 @@ body {
 .deeper {
 	background-image: url("../img/Mergulho-Cinza-sem_texto.jpg");
 	background-size: cover;
-	height: 110vh;
+	height: 100vh;
 }
 
 .deeper .container {
@@ -198,6 +199,7 @@ body {
 	align-content: center;
 	align-items: center;
 	padding-top: 40px;
+	min-height: 100vh;
 
 }
 
@@ -246,15 +248,90 @@ body {
 }
 
 .services-box {
-	list-style: none;
+	display: flex;
+	flex-direction: column;
+	background-color: rgba(240, 240, 240, 1);
+	border: solid 1px;
+	border-color: rgb(216, 216, 216);
 	width: 25%;
+	min-height: 50vh;
+	max-height: 60vh;
 	margin: 0px;
+	padding: 40px;
+}
+
+.services-box:hover {
+	background-color: rgba(217, 217, 217, 1);
 }
 
 .services-box-title {
 	font-family: "Introdução", sans-serif;
-	font-size: 1rem;
+	font-size: 20px;
+	letter-spacing: 1px;
 }
+
+.services-box-text {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16px;
+	width: 60%;
+	font-weight: 700;
+}
+
+.services-box-img {
+	width: 35%;
+}
+
+
+/*  Methods  */
+
+.methods .container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+
+.methods-title {
+	align-self: flex-start;
+}
+
+.methods-box {
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 img{
